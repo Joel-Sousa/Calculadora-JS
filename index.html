@@ -1,0 +1,71 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="js.js"></script>
+</head>
+<body>
+	<center>Calculadora</center>
+	
+	<form action="#" method="get" name="form">
+	<table border="" align="center">
+	<tr>
+		<th colspan="4">Calculadora</th>
+	</tr>
+	<tr>
+		<td>Digite um valor:</td>
+		<td colspan="3"><input text="number" name="valor1" id="valor1"></td>
+	</tr>
+	<tr>
+		<td>Digite outro valor:</td>
+		<td colspan="3"><input text="number" name="valor2" id="valor2"></td>
+	</tr>
+	<tr>
+		<td><input 
+			type="button" 
+			value="Soma"
+		 	onclick="soma()"></td>
+		<td><input 
+			type="button" 
+			value="Subtracao"
+			onclick="subtracao()"></td>
+		<td><input 
+			type="button" 
+			value="Multiplicacao"
+			onclick="multiplicacao()"></td>
+			<td><input 
+			type="button" 
+			value="Divisao"
+			onclick="divisao()"></td>
+	</tr>
+	<tr>
+		<td><input 
+			type="button" 
+			value="Raiz"
+		 	onclick="raiz()"></td>
+		<td><input 
+			type="button" 
+			value="P+"
+			onclick="porcentagem1()" title="Porcentagem">
+		<input 
+			type="button" 
+			value="P-"
+			onclick="porcentagem2()" title="Porcentagem"></td>
+		<td><input 
+			type="button" 
+			value="Exponenciacao"
+			onclick="exponenciacao()"></td>
+			<td><input 
+			type="button" 
+			value="Limpar"
+			onclick="limpar()"></td>
+	</tr>
+	<tr>
+		<td>Resultado:</td>
+		<td colspan="3"><p id="resultado"></p></td>
+	</tr>
+	</table>
+	</form>
+	<br>
+</body>
+</html>
